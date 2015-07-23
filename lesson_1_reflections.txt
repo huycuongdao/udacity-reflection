@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I will see the differences between two files automatically, that is much convinient than do it by hand
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If you are writing code but it has a bug or doesnot work, you can easy return back the previous files
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: You can control when and how many commit it have been created
+    Cons: If you forget to create a commit, you will lost the file
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    When you are writing code, you will work with a lot of files at a moment, so saving multiple files
+    in one commit will help you a lots. It is more convient than saving each file separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Just type git log in the repository and all the commits wil log out; then type git diff with 2 ID of the commit you want to compare.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You can turn back whenever you want 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+   	I dont know
+
+
+
+Git Errors and Warnings Solution
+
+Should not be doing an octopus 
+Octopus is a strategy Git uses to combine many different versions of code together. This message can appear if you try to use this strategy in an inappropriate situation.
+
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
+Panic! (the 'impossible' happened) 
+This is a real error message, but it’s not output by Git. Instead it’s output by GHC, the compiler for a programming language called Haskell. It’s reserved for particularly surprising errors!
+
+Takeaway We hope these errors and warnings amused you as much as they amused us! Now that you know what kind of errors Git can throw, you’re ready to start checking out previous versions of files with Caroline.

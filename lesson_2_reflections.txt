@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+	A .git folder will be created in a directory and it wrap up all the files.
+	You have to do this if you want to work with git. If you delete the .git folder (it is hidden from you),
+	you will not be able to work with git any more
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area will track your file if it is modified. You have to be in staging area to commit your files.
